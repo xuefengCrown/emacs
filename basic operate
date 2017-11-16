@@ -1,0 +1,34 @@
+# 基本操作
+1 cursor movement
+c-b: 前移
+c-f: 后移
+c-a: 到行首
+c-e: 到行尾
+c-n: 下一行
+c-p: 上一行
+c-k: 删除
+
+2 文件操作
+C-h-t: open tutorial
+c-x c-f: open file
+c-x c-s: save file
+
+c-x c-c: exit
+c-g: 取消
+
+3 查询
+c-h k: 快捷键
+c-h v： 值
+c-h f： 函数
+
+# 学习 elisp（https://learnxinyminutes.com/）
+c-x c-e: 执行elisp代码
+
+4 关于emacs 的配置文件
+windows系统中Emacs的HOME目录及配置文件的正确路径
+https://www.cnblogs.com/ini_always/archive/2012/04/27/2472857.html
+
+windows下Emacs的安装与配置
+http://blog.csdn.net/flag_and_leg/article/details/2900278
+
+我的配置文件在：C:\Users\moveb\AppData\Roaming\.emacs.d
