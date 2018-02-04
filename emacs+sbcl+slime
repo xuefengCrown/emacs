@@ -16,12 +16,13 @@
 (defun hello-world ()
   (format t "Hello World!"))
 
+alt-x, slime 进入slime
 然后在Emacs中移动光标到这两行中的任一行，输入C-c，C-c，即可编译这段代码到SLIME中，
-然后输入C-x，b，回车（其实是切换到了上一次打开的缓冲区）后进入SLIME，输入：
+然后输入c-x，b，回车（其实是切换到了上一次打开的缓冲区）后进入SLIME，输入：
 
 (hello-world)
 会发现得到了和上次一样的输出，说明我们成功编译了一个名叫hello-world的函数并成功调用了它。
-再输入C-x，b，回车返回hello.lisp文件，可以通过C-x，C-s保存它。通过这种方式，我们很轻松地编写、编译、运行并保存了一个lisp文件。
+再输入c-x，b，回车返回hello.lisp文件，可以通过C-x，C-s保存它。通过这种方式，我们很轻松地编写、编译、运行并保存了一个lisp文件。
 
 
 # emacs 一些快捷键
